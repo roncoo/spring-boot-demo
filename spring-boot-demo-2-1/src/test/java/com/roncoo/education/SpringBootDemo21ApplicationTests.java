@@ -30,6 +30,9 @@ public class SpringBootDemo21ApplicationTests {
 	public void contextLoads() throws Exception {
 		RequestBuilder request = get("/index");
 		mvc.perform(request).andExpect(status().isOk()).andExpect(content().string("hello world"));
+		
+		request = get("/index/get").param("name", "无境");
+		mvc.perform(request).andExpect(status().isOk()).andExpect(content().string("{\"name\":\"无境\",\"title\":\"hello world\"}"));
 	}
 
 }
