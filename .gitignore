@@ -1,1 +1,7 @@
-.project
+*/target/
+*.project
+*.classpath
+*.project
+*.settings
+*.mvn
+*.project
