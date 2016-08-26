@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.roncoo.education.bean.User;
 
 /**
- * spring-boot-demo-3-1
+ * spring-boot-demo-3-2
  * 
  * @author wujing
  */
