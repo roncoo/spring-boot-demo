@@ -1,0 +1,38 @@
+#配置文件环境配置
+spring:
+  profiles:
+    active: dev
+    
+  #jackson
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
+
+#自定义配置
+roncoo: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: www.roncoo.com
+  desc: ${roncoo.name} is a domain name
+
+#端口
+server: 
+  port: 8888
+    
+---
+spring:
+  profiles: dev
+server:
+  port: 8080
+  
+---
+spring:
+  profiles: prod
+server:
+  port: 8082
+  
+---
+spring:
+  profiles: test
+server:
+  port: 8081
