@@ -6,7 +6,6 @@ package com.roncoo.education.controller;
 import java.util.Date;
 import java.util.HashMap;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,15 +21,6 @@ import com.roncoo.education.bean.User;
 @RestController
 @RequestMapping(value = "/index")
 public class IndexController {
-	
-	@Value(value = "${roncoo.secret}")
-	private String secret;
-	
-	@Value(value = "${roncoo.number}")
-	private int id;
-	
-	@Value(value = "${roncoo.desc}")
-	private String desc;
 
 	@RequestMapping
 	public String index() {
@@ -43,9 +33,6 @@ public class IndexController {
 		HashMap<String, Object> map = new HashMap<String, Object>();
 		map.put("title", "hello world");
 		map.put("name", name);
-		map.put("secret", secret);
-		map.put("id", id);
-		map.put("desc", desc);
 		return map;
 	}
 
