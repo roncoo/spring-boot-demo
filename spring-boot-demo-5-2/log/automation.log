@@ -1,0 +1,99 @@
+2016-08-31 17:22:39,372 [restartedMain] INFO  SpringBootDemo52Application:48 - Starting SpringBootDemo52Application on SC-201604230154 with PID 7388 (C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2\target\classes started by Administrator in C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2)
+2016-08-31 17:22:39,373 [restartedMain] INFO  SpringBootDemo52Application:663 - The following profiles are active: test
+2016-08-31 17:22:39,378 [restartedMain] INFO  AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b329dd2: startup date [Wed Aug 31 17:22:39 CST 2016]; root of context hierarchy
+2016-08-31 17:22:39,918 [restartedMain] INFO  TomcatEmbeddedServletContainer:88 - Tomcat initialized with port(s): 8081 (http)
+2016-08-31 17:22:39,921 [restartedMain] INFO  StandardService:179 - Starting service Tomcat
+2016-08-31 17:22:39,922 [restartedMain] INFO  StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2016-08-31 17:22:39,933 [localhost-startStop-1] INFO  [/]:179 - Initializing Spring embedded WebApplicationContext
+2016-08-31 17:22:39,934 [localhost-startStop-1] INFO  ContextLoader:276 - Root WebApplicationContext: initialization completed in 556 ms
+2016-08-31 17:22:39,979 [localhost-startStop-1] INFO  ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-31 17:22:39,981 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-31 17:22:39,981 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-31 17:22:39,981 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-31 17:22:39,982 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-31 17:22:40,062 [restartedMain] INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b329dd2: startup date [Wed Aug 31 17:22:39 CST 2016]; root of context hierarchy
+2016-08-31 17:22:40,069 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public java.lang.String com.roncoo.education.controller.IndexController.index()
+2016-08-31 17:22:40,070 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> com.roncoo.education.controller.IndexController.get(java.lang.String)
+2016-08-31 17:22:40,070 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get/{id}/{name}]}" onto public com.roncoo.education.bean.User com.roncoo.education.controller.IndexController.getUser(int,java.lang.String)
+2016-08-31 17:22:40,072 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-31 17:22:40,073 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-08-31 17:22:40,080 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:40,080 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:40,089 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:40,119 [restartedMain] INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2016-08-31 17:22:40,151 [restartedMain] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-08-31 17:22:40,155 [restartedMain] INFO  Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8081"]
+2016-08-31 17:22:40,156 [restartedMain] INFO  Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8081]
+2016-08-31 17:22:40,157 [restartedMain] INFO  NioSelectorPool:179 - Using a shared selector for servlet write/read
+2016-08-31 17:22:40,160 [restartedMain] INFO  TomcatEmbeddedServletContainer:186 - Tomcat started on port(s): 8081 (http)
+2016-08-31 17:22:40,162 [restartedMain] INFO  SpringBootDemo52Application:57 - Started SpringBootDemo52Application in 0.895 seconds (JVM running for 98.345)
+2016-08-31 17:22:44,553 [Thread-9] INFO  AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b329dd2: startup date [Wed Aug 31 17:22:39 CST 2016]; root of context hierarchy
+2016-08-31 17:22:44,555 [Thread-9] INFO  AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2016-08-31 17:22:44,787 [restartedMain] INFO  SpringBootDemo52Application:48 - Starting SpringBootDemo52Application on SC-201604230154 with PID 7388 (C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2\target\classes started by Administrator in C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2)
+2016-08-31 17:22:44,788 [restartedMain] INFO  SpringBootDemo52Application:663 - The following profiles are active: test
+2016-08-31 17:22:44,790 [restartedMain] INFO  AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68f34fd5: startup date [Wed Aug 31 17:22:44 CST 2016]; root of context hierarchy
+2016-08-31 17:22:52,920 [restartedMain] INFO  SpringBootDemo52Application:48 - Starting SpringBootDemo52Application on SC-201604230154 with PID 4200 (C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2\target\classes started by Administrator in C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2)
+2016-08-31 17:22:52,922 [restartedMain] INFO  SpringBootDemo52Application:663 - The following profiles are active: test
+2016-08-31 17:22:52,971 [restartedMain] INFO  AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73365e1a: startup date [Wed Aug 31 17:22:52 CST 2016]; root of context hierarchy
+2016-08-31 17:22:53,053 [background-preinit] INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-08-31 17:22:54,384 [restartedMain] INFO  TomcatEmbeddedServletContainer:88 - Tomcat initialized with port(s): 8081 (http)
+2016-08-31 17:22:54,399 [restartedMain] INFO  StandardService:179 - Starting service Tomcat
+2016-08-31 17:22:54,401 [restartedMain] INFO  StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2016-08-31 17:22:54,490 [localhost-startStop-1] INFO  [/]:179 - Initializing Spring embedded WebApplicationContext
+2016-08-31 17:22:54,491 [localhost-startStop-1] INFO  ContextLoader:276 - Root WebApplicationContext: initialization completed in 1523 ms
+2016-08-31 17:22:54,700 [localhost-startStop-1] INFO  ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-31 17:22:54,705 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-31 17:22:54,706 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-31 17:22:54,706 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-31 17:22:54,706 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-31 17:22:55,001 [restartedMain] INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73365e1a: startup date [Wed Aug 31 17:22:52 CST 2016]; root of context hierarchy
+2016-08-31 17:22:55,068 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public java.lang.String com.roncoo.education.controller.IndexController.index()
+2016-08-31 17:22:55,070 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> com.roncoo.education.controller.IndexController.get(java.lang.String)
+2016-08-31 17:22:55,070 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get/{id}/{name}]}" onto public com.roncoo.education.bean.User com.roncoo.education.controller.IndexController.getUser(int,java.lang.String)
+2016-08-31 17:22:55,072 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-31 17:22:55,073 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-08-31 17:22:55,112 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:55,113 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:55,152 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:22:55,280 [restartedMain] INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2016-08-31 17:22:55,332 [restartedMain] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-08-31 17:22:55,353 [restartedMain] INFO  Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8081"]
+2016-08-31 17:22:55,366 [restartedMain] INFO  Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8081]
+2016-08-31 17:22:55,380 [restartedMain] INFO  NioSelectorPool:179 - Using a shared selector for servlet write/read
+2016-08-31 17:22:55,395 [restartedMain] INFO  TomcatEmbeddedServletContainer:186 - Tomcat started on port(s): 8081 (http)
+2016-08-31 17:22:55,399 [restartedMain] INFO  SpringBootDemo52Application:57 - Started SpringBootDemo52Application in 2.892 seconds (JVM running for 4.488)
+2016-08-31 17:23:28,099 [RMI TCP Connection(2)-192.168.1.41] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2016-08-31 17:23:28,100 [RMI TCP Connection(2)-192.168.1.41] INFO  AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73365e1a: startup date [Wed Aug 31 17:22:52 CST 2016]; root of context hierarchy
+2016-08-31 17:23:28,103 [RMI TCP Connection(2)-192.168.1.41] INFO  AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2016-08-31 17:23:36,559 [restartedMain] INFO  SpringBootDemo52Application:48 - Starting SpringBootDemo52Application on SC-201604230154 with PID 10276 (C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2\target\classes started by Administrator in C:\Users\Administrator\git\spring-boot-demo\spring-boot-demo-5-2)
+2016-08-31 17:23:36,561 [restartedMain] INFO  SpringBootDemo52Application:663 - The following profiles are active: test
+2016-08-31 17:23:36,615 [restartedMain] INFO  AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ad9ee5d: startup date [Wed Aug 31 17:23:36 CST 2016]; root of context hierarchy
+2016-08-31 17:23:36,694 [background-preinit] INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-08-31 17:23:37,987 [restartedMain] INFO  TomcatEmbeddedServletContainer:88 - Tomcat initialized with port(s): 8081 (http)
+2016-08-31 17:23:38,000 [restartedMain] INFO  StandardService:179 - Starting service Tomcat
+2016-08-31 17:23:38,002 [restartedMain] INFO  StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+2016-08-31 17:23:38,089 [localhost-startStop-1] INFO  [/]:179 - Initializing Spring embedded WebApplicationContext
+2016-08-31 17:23:38,090 [localhost-startStop-1] INFO  ContextLoader:276 - Root WebApplicationContext: initialization completed in 1478 ms
+2016-08-31 17:23:38,314 [localhost-startStop-1] INFO  ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-31 17:23:38,319 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-31 17:23:38,320 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-31 17:23:38,320 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-31 17:23:38,320 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-31 17:23:38,674 [restartedMain] INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ad9ee5d: startup date [Wed Aug 31 17:23:36 CST 2016]; root of context hierarchy
+2016-08-31 17:23:38,732 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public java.lang.String com.roncoo.education.controller.IndexController.index()
+2016-08-31 17:23:38,733 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> com.roncoo.education.controller.IndexController.get(java.lang.String)
+2016-08-31 17:23:38,733 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/index/get/{id}/{name}]}" onto public com.roncoo.education.bean.User com.roncoo.education.controller.IndexController.getUser(int,java.lang.String)
+2016-08-31 17:23:38,734 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-31 17:23:38,735 [restartedMain] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-08-31 17:23:38,762 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:23:38,763 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:23:38,803 [restartedMain] INFO  SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-31 17:23:38,946 [restartedMain] INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2016-08-31 17:23:38,992 [restartedMain] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-08-31 17:23:39,013 [restartedMain] INFO  Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8081"]
+2016-08-31 17:23:39,025 [restartedMain] INFO  Http11NioProtocol:179 - Starting ProtocolHandler [http-nio-8081]
+2016-08-31 17:23:39,039 [restartedMain] INFO  NioSelectorPool:179 - Using a shared selector for servlet write/read
+2016-08-31 17:23:39,072 [restartedMain] INFO  TomcatEmbeddedServletContainer:186 - Tomcat started on port(s): 8081 (http)
+2016-08-31 17:23:39,077 [restartedMain] INFO  SpringBootDemo52Application:57 - Started SpringBootDemo52Application in 2.905 seconds (JVM running for 4.535)
+2016-08-31 17:26:57,607 [Thread-5] INFO  AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ad9ee5d: startup date [Wed Aug 31 17:23:36 CST 2016]; root of context hierarchy
+2016-08-31 17:26:57,609 [Thread-5] INFO  AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
