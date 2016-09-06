@@ -22,9 +22,4 @@ public class WebController {
 		return "index"; // 开头不要加上/，linux下面会出错
 	}
 
-	@RequestMapping(value = "error")
-	public String error(ModelMap map) {
-		throw new RuntimeException("测试异常");
-	}
-
 }
