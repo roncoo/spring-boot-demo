@@ -20,9 +20,4 @@ public class WebController {
 		return "index";
 	}
 
-	@RequestMapping(value = "error")
-	public String error(ModelMap map) {
-		throw new RuntimeException("测试异常");
-	}
-
 }
