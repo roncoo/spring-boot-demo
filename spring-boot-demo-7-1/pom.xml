@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.roncoo.education</groupId>
-	<artifactId>spring-boot-demo-6-2</artifactId>
+	<artifactId>spring-boot-demo-7-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-demo-6-2</name>
+	<name>spring-boot-demo-7-1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
