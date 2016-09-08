@@ -8,7 +8,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * spring-boot-demo-7-1
+ * spring-boot-demo-9-1
  * 
  * @author wujing
  */
