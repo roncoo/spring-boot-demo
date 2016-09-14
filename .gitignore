@@ -6,3 +6,4 @@
 *.mvn
 *.project
 *.springBeans
+*.bin
