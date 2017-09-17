@@ -7,3 +7,6 @@
 
 ### 项目文档
 - spring-boot-demo [教程文档](http://www.roncoo.com/article/detail/124661)
+
+### 项目说明
+- 源码只能学习使用，更多请看视频
