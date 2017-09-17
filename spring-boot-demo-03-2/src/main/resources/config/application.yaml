@@ -1,0 +1,12 @@
+#这个优先级较高
+
+#自定义配置
+roncoo: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: www.roncoo.com
+  desc: the domain is ${roncoo.name}
+
+#端口
+server: 
+  port: 9090

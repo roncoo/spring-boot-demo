@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "roncoo.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'roncoo.secret'"
+  },
+  {
+    "name": "roncoo.number",
+    "type": "java.lang.String",
+    "description": "A description for 'roncoo.number'"
+  },
+  {
+    "name": "roncoo.name",
+    "type": "java.lang.String",
+    "description": "A description for 'roncoo.name'"
+  },
+  {
+    "name": "roncoo.desc",
+    "type": "java.lang.String",
+    "description": "A description for 'roncoo.desc'"
+  }
+]}
