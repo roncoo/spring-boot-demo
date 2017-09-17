@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>spring-boot-demo-03-1</name>
-	<description>Demo project for Spring Boot</description>
+	<description>配置文件详解：Properties</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
