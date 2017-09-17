@@ -10,3 +10,8 @@
 
 ### 项目说明
 - 源码只能学习使用，更多请看视频
+
+### 开源项目 roncoo-jui-springboot [项目地址](https://github.com/roncoo/roncoo-jui-springboot)
+- 该项目是为了大家更好地运用Spring Boot的功能，进行实战。
+- 如果没有使用过Spring Boot，也是一个学习的好项目。
+- 可以快速实现一个基于Spring Boot的后台管理系统，前端是基于JUI。
