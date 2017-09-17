@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>spring-boot-demo-05-2</name>
-	<description>Demo project for Spring Boot</description>
+	<description>日志配置-log4j2</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
