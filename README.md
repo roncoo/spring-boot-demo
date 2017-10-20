@@ -12,11 +12,11 @@
 - 源码只供学习使用，更多请看视频
 
 ### 开源项目
-- roncoo-jui-springboot [项目地址](https://github.com/roncoo/roncoo-jui-springboot)
+- **【roncoo-jui-springboot】** [项目地址](https://github.com/roncoo/roncoo-jui-springboot)
 - 该项目是为了大家更好地运用Spring Boot的功能，进行实战。
 - 如果没有使用过Spring Boot，也是一个学习的好项目。
 - 可以快速实现一个基于Spring Boot的后台管理系统，前端是基于JUI。
 
 ### 技术交流
-1群: 213097382 (满)
-2群: 601146630
+* 1群: 213097382 (满)
+* 2群: 601146630
