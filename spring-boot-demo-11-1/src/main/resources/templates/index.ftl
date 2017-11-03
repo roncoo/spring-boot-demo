@@ -16,7 +16,19 @@
 	<script>
 		$(function(){
 			$('#title').click(function(){
-				alert('点击了');
+				//alert('点击了');
+				
+		            $.ajax({
+	        		url: "http://localhost:8081/api/get",
+		                type: "POST",
+		                data: {
+		                    name: "测试"
+		                },
+		                success: function(data, status, xhr) {
+		            	    console.log(data);
+		            	    alert(data.name);
+		                }
+	                    });
 			});
 		})
 	</script>
