@@ -1,6 +1,6 @@
 ## 项目地址汇总
-### Spring Boot Demo：[https://github.com/roncoo/spring-boot-demo](https://github.com/roncoo/spring-boot-demo)
-### Spring Cloud Demo：[https://github.com/roncoo/spring-cloud-demo](https://github.com/roncoo/spring-cloud-demo)
+### Spring Boot Demo：[码云地址](https://gitee.com/roncoocom/spring-boot-demo) | [Github地址](https://github.com/roncoo/spring-boot-demo)
+### Spring Cloud Demo：[码云地址](https://gitee.com/roncoocom/spring-boot-demo) | [Github地址](https://github.com/roncoo/spring-cloud-demo)
 
 ### 本项目为Spring Boot的基础教程
 
