@@ -20,7 +20,7 @@
 
 ## 开源项目 
 ### roncoo-jui-springboot
-- 项目地址：[码云地址](https://gitee.com/roncoocom/spring-boot-demo) | [Github地址](https://github.com/roncoo/roncoo-jui-springboot)
+- 项目地址：[码云地址](https://gitee.com/roncoocom/roncoo-jui-springboot) | [Github地址](https://github.com/roncoo/roncoo-jui-springboot)
 - 该项目是为了大家更好地运用Spring Boot的功能，进行实战。
 - 如果没有使用过Spring Boot，也是一个学习的好项目。
 
