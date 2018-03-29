@@ -19,6 +19,13 @@
 * QQ1群: 213097382 (满)
 
 ## 开源项目 
-### roncoo-jui-springboot：[https://github.com/roncoo/roncoo-jui-springboot](https://github.com/roncoo/roncoo-jui-springboot)
+### roncoo-jui-springboot
+- [码云](https://gitee.com/roncoocom/spring-boot-demo) [github](https://github.com/roncoo/roncoo-jui-springboot)
 - 该项目是为了大家更好地运用Spring Boot的功能，进行实战。
 - 如果没有使用过Spring Boot，也是一个学习的好项目。
+
+### roncoo-recharge
+- [码云](https://gitee.com/roncoocom/roncoo-recharge) [github](https://github.com/roncoo/roncoo-recharge)
+- 具备话费充值、流量充值、话费卡兑换功能；
+- 可以拓展其他充值兑换业务，比如虚拟币充值；
+- 也适用于支付、鉴权等业务功能的拓展。
